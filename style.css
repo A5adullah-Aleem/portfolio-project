@@ -21,12 +21,19 @@
     flex-direction: column;
     gap: 12px;
     background-image: url(./icons/header.png);
+    background-repeat: no-repeat;
 }
 
 .primary-text{
-    font-size: 30px;
+    display: flex;
+    width: 327px;
+    height: 150px;
+    flex-direction: column;
+    font-size: 40px;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
+    justify-content: center;
+    line-height: 52px;
 }
 
 .description{
@@ -36,8 +43,6 @@
     font-weight: 400;
     line-height: 24px;
 }
-
-
 
 
 .social-media-icons{

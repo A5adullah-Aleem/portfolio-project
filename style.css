@@ -62,7 +62,7 @@
 
 .work-section {
   display: grid;
-  grid-template-rows:repeat(4, 610px);
+  grid-template-rows: repeat(4, 610px);
   gap: 88px;
   padding-top: 144px;
   padding-bottom: 144px;
@@ -94,8 +94,6 @@
   align-items: center;
   gap: 12px;
   list-style: none;
-  margin: 0px;
-  padding: 0px;
 }
 
 li {
@@ -126,8 +124,6 @@ li {
   align-items: center;
   gap: 8px;
   list-style: none;
-  margin: 0px;
-  padding: 0px;
 }
 
 .lang {
@@ -151,7 +147,7 @@ li {
 
 .action {
   display: flex;
-  padding: 12px 169px 12px 0px;
+  padding: 12px 169px 12px 1px;
   align-items: center;
 }
 
@@ -194,7 +190,6 @@ li {
   color: #172b4d;
   justify-content: center;
   margin-top: 144px;
-  margin-bottom: 0px;
   margin-left: 10px;
 }
 
@@ -211,7 +206,6 @@ li {
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  margin-top: 0px;
   margin-left: 10px;
 }
 

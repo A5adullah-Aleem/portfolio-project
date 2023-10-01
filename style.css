@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
-* {
-  margin: 0;
-  padding: 0;
-}
+* { 
+  margin: 0; 
+  padding: 0; 
+} 
 
 .container {
   display: flex;
@@ -65,7 +65,6 @@
   grid-template-rows: repeat(4, 610px);
   gap: 88px;
   padding-top: 144px;
-  padding-bottom: 144px;
   background: rgb(247, 247, 247);
 }
 
@@ -94,6 +93,8 @@
   align-items: center;
   gap: 12px;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 li {
@@ -124,6 +125,8 @@ li {
   align-items: center;
   gap: 8px;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .lang {
@@ -191,6 +194,7 @@ li {
   justify-content: center;
   margin-top: 144px;
   margin-left: 10px;
+  margin-bottom: 0;
 }
 
 .social-media .lets-connect {
@@ -207,6 +211,7 @@ li {
   font-weight: 400;
   line-height: 24px;
   margin-left: 10px;
+  margin-top: 0;
 }
 
 .resume {
@@ -316,7 +321,7 @@ li {
   grid-template-columns: 94%;
   align-items: center;
   gap: 88px;
-  border-top-left-radius: 20%;
+  border-top-left-radius: 100px;
   background: var(--primary-b-400, #6070ff);
 }
 
@@ -347,7 +352,7 @@ li {
 }
 
 .email {
-  width: 327px;
+  width: 320px;
   height: 30px;
   flex-shrink: 0;
   border-radius: 8px;
@@ -361,7 +366,7 @@ li {
 }
 
 .message {
-  width: 327px;
+  width: 314px;
   height: 170px;
   flex-shrink: 0;
   align-self: center;

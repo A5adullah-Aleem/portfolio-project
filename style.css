@@ -65,7 +65,6 @@
   grid-template-rows: repeat(4, 610px);
   gap: 88px;
   padding-top: 144px;
-  padding-bottom: 144px;
   background: rgb(247, 247, 247);
 }
 
@@ -94,6 +93,8 @@
   align-items: center;
   gap: 12px;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 li {
@@ -124,6 +125,8 @@ li {
   align-items: center;
   gap: 8px;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .lang {
@@ -191,6 +194,7 @@ li {
   justify-content: center;
   margin-top: 144px;
   margin-left: 10px;
+  margin-bottom: 0;
 }
 
 .social-media .lets-connect {
@@ -207,6 +211,7 @@ li {
   font-weight: 400;
   line-height: 24px;
   margin-left: 10px;
+  margin-top: 0;
 }
 
 .resume {
@@ -306,4 +311,123 @@ li {
   justify-content: space-between;
   padding-right: 15px;
   margin-left: -10px;
+}
+
+/* Css Added by collaborator Muhammad Saifullah */
+
+.ContactMe {
+  display: grid;
+  padding: 114px 24px;
+  grid-template-columns: 94%;
+  align-items: center;
+  gap: 88px;
+  border-top-left-radius: 100px;
+  background: var(--primary-b-400, #6070ff);
+}
+
+.ContactMeTop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  color: var(--neutrals-n-0, #fff);
+}
+
+.ContactMeTopText {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.ContactMeDetails {
+  width: 327px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.email {
+  width: 320px;
+  height: 30px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  align-self: center;
+  margin-bottom: 20px;
+  font-size: 17px;
+  font-weight: 400;
+  resize: none;
+  text-align: justify;
+  align-items: center;
+}
+
+.message {
+  width: 314px;
+  height: 170px;
+  flex-shrink: 0;
+  align-self: center;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  padding-top: 10px;
+  padding-left: 10px;
+  font-size: 15px;
+  font-weight: 400;
+  resize: none;
+}
+
+.footer {
+  width: 134px;
+  height: 5px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #0d151e;
+  align-self: center;
+}
+
+.form-spree {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+button {
+  background-color: white;
+}
+
+button:hover {
+  background-color: #6070ff;
+  color: #f7f7f9;
+}
+
+.FreeButton {
+  display: flex;
+  align-items: center;
+}
+
+.NormalBtn {
+  align-self: stretch;
+  padding: 12px;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px #6070ff solid;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  display: inline-flex;
+}
+
+.SpecifiedBtnSeeDetails {
+  text-align: center;
+  color: #396df2;
+  font-size: 17px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.51px;
+  word-wrap: break-word;
 }

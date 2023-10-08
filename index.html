@@ -11,9 +11,14 @@
         <div class="logo">
             <b>My Logo</b>
         </div>
-        <div class="menu">
+        <div class="menu desktop-hide">
             <img src="./icons/Icon - Menu.svg" alt="Button" class="button">
         </div>
+        <ul class="navigation-links mobile-hide">
+            <li class="Nav-link"><a href="#">Portfolio</a></li>
+            <li class="Nav-link"><a href="#">About</a></li>
+            <li class="Nav-link"><a href="#">Contacts</a></li>
+        </ul>
     </div>
     <div class="headline">
         <b class="primary-text">
@@ -30,7 +35,8 @@
     </div> 
     <section class="work-section">
         <div class="card">
-            <img src="./icons/Snapshoot Portfolio.svg" alt="portfolio" class="snapshot-portfoio">
+            <img src="./icons/Snapshoot Portfolio.svg" alt="portfolio" class="snapshot-portfolio desktop-hide">
+            <img src="./icons/desktop card 1.png" alt="portfolio" class="snapshot-portfolio-desk mobile-hide"> 
             <div class="left-block">
                 <h1 class="project-title">Tonic</h1>
                 <ul class="project-detail">
@@ -51,20 +57,24 @@
                 </div>
             </div>
         </div>
-        <div class="card">
-            <img src="./icons/Snapshoot Portfolio 2.svg" alt="portfolio" class="snapshot-portfoio">
+        <div class="card reverse-card">
+            <img src="./icons/Snapshoot Portfolio 2.svg" alt="portfolio" class="snapshot-portfoio desktop-hide">
+            <img src="./icons/desktop card 2.svg" alt="portfolio" class="snapshot-portfolio-desk mobile-hide">
             <div class="left-block">
                 <h1 class="project-title">Multi-Post<br>Stories</h1>
                 <ul class="project-detail">
-                    <li>CANOPY</li>
+                    <li class="desktop-hide">CANOPY</li>
+                    <li class="mobile-hide">FACEBOOK</li>
                     <img src="./icons/Counter.svg" alt="circle">
-                    <li class="light-text">Back End Dev</li>
+                    <li class="light-text desktop-hide">Back End Dev</li>
+                    <li class="mobile-hide light-text">Full Stack Developer</li>
                     <img src="./icons/Counter.svg" alt="circle">
                     <li class="light-text">2023</li>
                 </ul>               
                     <p class="description" >A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
                     <ul class="pro-lang">
                     <li class="lang">HTML</li>
+                    <li class="lang mobile-hide">Ruby on rails</li>
                     <li class="lang">CSS</li>
                     <li class="lang">Javascipt</li>
                 </ul>
@@ -74,41 +84,54 @@
             </div>
         </div>
         <div class="card">
-            <img src="./icons/Snapshoot Portfolio 3.svg" alt="portfolio" class="snapshot-portfoio">
+            <img src="./icons/Snapshoot Portfolio 3.svg" alt="portfolio" class="snapshot-portfoio desktop-hide">
+            <img src="./icons/desktop card 3.svg" alt="portfolio" class="snapshot-portfolio-desk mobile-hide">
             <div class="left-block">
-                <h1 class="project-title">Tonic</h1>
+                <h1 class="project-title desktop-hide">Tonic</h1>
+                <h1 class="project-title mobile-hide">FACEBOOK 360</h1>
                 <ul class="project-detail">
-                    <li>CANOPY</li>
+                    <li class="desktop-hide">CANOPY</li>
+                    <li class="mobile-hide">FACEBOOK</li>
                     <img src="./icons/Counter.svg" alt="circle">
-                    <li class="light-text">Back End Dev</li>
+                    <li class="light-text desktop-hide">Back End Dev</li>
+                    <li class="light-text mobile-hide">Full Stack Dev</li>
                     <img src="./icons/Counter.svg" alt="circle">
                     <li class="light-text">2023</li>
                 </ul>               
                     <p class="description" >A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
                     <ul class="pro-lang">
                     <li class="lang">HTML</li>
+                    <li class="lang mobile-hide">Ruby on rails</li>
                     <li class="lang">CSS</li>
                     <li class="lang">Javascipt</li>
                 </ul>
-                <div class="action">
+                <div class="action desktop-hide">
                     <button class="see-project">See Project</button>
+                </div>
+                <div class="action mobile-hide">
+                    <button class="see-project-blue">See Project</button>
                 </div>
             </div>
         </div>
-        <div class="card">
-            <img src="./icons/Snapshoot Portfolio 4.svg" alt="portfolio" class="snapshot-portfoio">
+        <div class="card reverse-card">
+            <img src="./icons/Snapshoot Portfolio 4.svg" alt="portfolio" class="snapshot-portfoio desktop-hide">
+            <img src="./icons/desktop card 4.svg" alt="portfolio" class="snapshot-portfolio-desk mobile-hide">
             <div class="left-block">
-                <h1 class="project-title">Multi-Post<br>Stories</h1>
+                <h1 class="project-title desktop-hide">Multi-Post<br>Stories</h1>
+                <h1 class="project-title mobile-hide">Uber Navigation</h1>
                 <ul class="project-detail">
-                    <li>CANOPY</li>
+                    <li class="desktop-hide">CANOPY</li>
+                    <li class="mobile-hide">Uber</li>
                     <img src="./icons/Counter.svg" alt="circle">
-                    <li class="light-text">Back End Dev</li>
+                    <li class="light-text desktop-hide">Back End Dev</li>
+                    <li class="mobile-hide light-text">Lead Developer</li>
                     <img src="./icons/Counter.svg" alt="circle">
                     <li class="light-text">2023</li>
                 </ul>               
                     <p class="description" >A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
                     <ul class="pro-lang">
                     <li class="lang">HTML</li>
+                    <li class="lang mobile-hide">Ruby on rails</li>
                     <li class="lang">CSS</li>
                     <li class="lang">Javascipt</li>
                 </ul>
@@ -118,32 +141,34 @@
             </div>
         </div>
         <div class="aboutmyself">
-            <h1 class="about-head">About Myself</h1>
-            <h6 class="about-description" >Hello I'm a software developer! I can help you build a product , feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don't hesitate to contact me.</h6>
-            <div class="social-media">
+            <div class="about-myself-top"> 
+                    <h1 class="about-head">About Myself</h1>
+                    <h6 class="about-description" >Hello I'm a software developer! I can help you build a product , feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don't hesitate to contact me.</h6>
+                <div class="social-media">
                 <h4 class="lets-connect">LET'S CONNECT</h4>
-            </div> 
+                </div> 
             <img src="./icons/Social media.svg" alt="Social Media Icons" class="social-media">
             <button class="resume" href="#">Get my Resume</button>
-            <div class = "skills">
-                <div class="skills-heading">
-                    <h3>Languages</h3>
-                    <img src="./icons/down arrow.svg"  alt="arrow">
-                </div>
-                    <ul class="langs">
-                    <li><img src="./icons/java script.svg" alt="Javascript"><h4>JavaScript</h4></li>
-                    <li><img src="./icons/html.svg" alt="Javascript"><h4>HTML</h4></li>
-                    <li><img src="./icons/css.svg" alt="Javascript"><h4>CSS</h4></li>
-                    </ul>
-                <div class="skills-heading border">
-                    <h3>Frameworks </h3>
-                    <img src="./icons/right arrow.svg" alt="arrow">
-                </div>
-                <div class="skills-heading margin border">
-                <h3>Skills </h3> 
-                <img src="./icons/right arrow.svg" alt="arrow">
-                </div>
             </div>
+                <div class = "skills">
+                    <div class="skills-heading">
+                        <h3>Languages</h3>
+                        <img src="./icons/down arrow.svg"  alt="arrow">
+                    </div>
+                        <ul class="langs">
+                        <li class="desk-langs"><img src="./icons/java script.svg" alt="Javascript"><h4>JavaScript</h4></li>
+                        <li class="desk-langs"><img src="./icons/html.svg" alt="Javascript"><h4>HTML</h4></li>
+                        <li class="desk-langs"><img src="./icons/css.svg" alt="Javascript"><h4>CSS</h4></li>
+                        </ul>
+                        <div class="skills-heading border">
+                            <h3>Frameworks </h3>
+                        <img src="./icons/right arrow.svg" alt="arrow">
+                        </div>
+                    <div class="skills-heading margin border">
+                        <h3>Skills </h3> 
+                        <img src="./icons/right arrow.svg" alt="arrow">
+                    </div>
+                </div>
         </div>
         <section class="ContactMe">
             <section class="ContactMeTop">
@@ -156,7 +181,7 @@
                     <input type="text" name="full-name" class="email" placeholder="Enter your Name here..." maxlength="30" required></input>
                     <textarea name="message" class="message" placeholder="Write your message here..." maxlength="500" required></textarea>
                     <div class="FreeButton">
-                        <button type="button" class="NormalBtn SpecifiedBtnSeeDetails">See Project</button>
+                        <button type="button" class="NormalBtn SpecifiedBtnSeeDetails">Get in Touch</button>
                     </div>
                 </form> 
                 <footer class="footer"></footer>

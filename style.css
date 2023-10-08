@@ -172,6 +172,7 @@ li {
   display: flex;
   padding: 12px 169px 12px 1px;
   align-items: center;
+  margin-top: 20px;
 }
 
 .see-project {
@@ -466,4 +467,171 @@ button:hover {
   line-height: 24px;
   letter-spacing: 0.51px;
   word-wrap: break-word;
+}
+
+@media only screen and (max-width: 768px) {
+  .mobile-hide {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .navigation-links {
+    display: flex;
+    align-self: center;
+    margin-right: 8%;
+  }
+
+  .desktop-hide {
+    display: none;
+  }
+
+  .Nav-link {
+    margin-left: 12%;
+    font-size: 15px;
+    font-weight: 500;
+    color: #344563;
+    list-style: none;
+    text-decoration: none;
+  }
+
+  .container {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  .primary-text {
+    width: 340px;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    border-radius: 20px;
+    width: 90%;
+    margin-left: 4%;
+  }
+
+  .snapshot-portfolio-desk {
+    width: 50%;
+  }
+
+  .description {
+    display: flex;
+    display: inline;
+    width: 100%;
+    line-height: 24px;
+  }
+
+  .reverse-card {
+    display: flex;
+    flex-direction: row-reverse;
+    height: auto;
+    border-radius: 20px;
+    width: 90%;
+  }
+
+  .left-block {
+    padding: 24px;
+  }
+
+  .lang {
+    white-space: nowrap;
+  }
+
+  .see-project-blue {
+    display: flex;
+    padding: 12px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: rgb(64, 83, 252);
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(64, 83, 252, 0.24);
+    border: none;
+    margin-top: 15px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .aboutmyself {
+    display: flex;
+    flex-direction: row;
+    width: 99%;
+    height: auto;
+  }
+
+  .about-myself-top {
+    width: 40%;
+    margin: 7%;
+  }
+
+  .skills {
+    width: 40%;
+    height: 70%;
+    padding-top: 130px;
+    margin: 8%;
+  }
+
+  .skills-heading {
+    width: 118%;
+  }
+
+  .langs {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    align-items: center;
+    gap: 12px;
+    flex-direction: row;
+  }
+
+  .desk-langs h4 {
+    margin: 0;
+  }
+
+  .desk-langs img {
+    margin: 0;
+  }
+
+  .langs li {
+    justify-content: center;
+  }
+
+  .desk-langs {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+  }
+
+  .ContactMe {
+    margin-top: -86px;
+    background-image: url(./icons/contactdesktop.png);
+    justify-content: center;
+  }
+
+  .ContactMeTopText {
+    text-align: center;
+    width: 35%;
+  }
+
+  .ContactMeDetails {
+    text-align: center;
+    width: 35%;
+  }
+
+  .form-spree {
+    width: 35%;
+    justify-content: center;
+  }
+
+  .FreeButton {
+    justify-content: center;
+  }
 }

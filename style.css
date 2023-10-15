@@ -484,8 +484,8 @@ button:hover {
 
   .headline {
     display: flex;
-    padding-top: 114px;
-    padding-bottom: 15.6%;
+    padding-top: 13%;
+    padding-bottom: 13%;
     padding-left: 6.5%;
     padding-right: 6.5%;
     flex-direction: column;
@@ -513,12 +513,24 @@ button:hover {
 
   .container {
     position: sticky;
+    background-color: white;
     top: 0;
     z-index: 100;
+    height: auto;
+    transition: padding-top: 0.3s,
+    padding-bottiom: 0.3s,
+    box-shadow 0.3s ease;
+  }
+
+  .container:hover{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 5px 5px 10px #888888;
+    cursor: pointer;
   }
 
   .primary-text {
-    width: 340px;
+    width: 30%;
   }
 
   .card {
@@ -528,6 +540,13 @@ button:hover {
     border-radius: 20px;
     width: 90%;
     margin-left: 4%;
+    transition: transform 0.3s ease;
+    transition: box-shadow 0.3s ease;
+  }
+
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 10px #888888;
   }
 
   .snapshot-portfolio-desk {
@@ -547,6 +566,13 @@ button:hover {
     height: auto;
     border-radius: 20px;
     width: 90%;
+    transition: transform 0.3s ease;
+    transition: box-shadow 0.3s ease;
+  }
+
+  .reverse-card:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 10px #888888;
   }
 
   .left-block {
@@ -591,6 +617,7 @@ button:hover {
     height: 70%;
     padding-top: 130px;
     margin: 8%;
+    margin-right: 14%;
   }
 
   .skills-heading {

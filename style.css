@@ -517,15 +517,15 @@ button:hover {
     top: 0;
     z-index: 100;
     height: auto;
-    transition: padding-top 0.3s,
-    padding-bottiom 0.3s,
-    box-shadow 0.3s ease;
+    transition: padding-top 0.3s;
+    transition: padding-bottiom 0.3s;
+    transition: box-shadow 0.3s ease;
   }
 
-  .container:hover{
+  .container:hover {
     padding-top: 10px;
     padding-bottom: 10px;
-    box-shadow: 5px 5px 10px #888888;
+    box-shadow: 5px 5px 10px #888;
     cursor: pointer;
   }
 
@@ -546,7 +546,7 @@ button:hover {
 
   .card:hover {
     transform: scale(1.05);
-    box-shadow: 5px 5px 10px #888888;
+    box-shadow: 5px 5px 10px #888;
   }
 
   .snapshot-portfolio-desk {
@@ -572,7 +572,7 @@ button:hover {
 
   .reverse-card:hover {
     transform: scale(1.05);
-    box-shadow: 5px 5px 10px #888888;
+    box-shadow: 5px 5px 10px #888;
   }
 
   .left-block {

@@ -517,8 +517,8 @@ button:hover {
     top: 0;
     z-index: 100;
     height: auto;
-    transition: padding-top: 0.3s,
-    padding-bottiom: 0.3s,
+    transition: padding-top 0.3s,
+    padding-bottiom 0.3s,
     box-shadow 0.3s ease;
   }
 

@@ -482,6 +482,22 @@ button:hover {
     margin-right: 8%;
   }
 
+  .headline {
+    display: flex;
+    padding-top: 114px;
+    padding-bottom: 15.6%;
+    padding-left: 6.5%;
+    padding-right: 6.5%;
+    flex-direction: column;
+    gap: 12px;
+    background-size: cover;
+    background-image: url(./icons/header.png);
+    background-repeat: no-repeat;
+    width: 87%;
+    background-color: white;
+    border-bottom-left-radius: 80px;
+  }
+
   .desktop-hide {
     display: none;
   }
